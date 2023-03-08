@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
-import { restaurantListReducers } from './reducers/RestaurentReducers'
+import { restaurantListReducers }from './Food/reducers/RestaurentReducers'
 const reducers = combineReducers({
     restuarantReducer : restaurantListReducers
 

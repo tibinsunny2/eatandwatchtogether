@@ -1,14 +1,13 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 function Header() {
   return (
-    <Container>
-    <Navbar bg="success" expand="lg">
     
-    <Navbar.Brand href="#home">SAMPLE PRIVATE LIMITED</Navbar.Brand>
+    <Navbar bg="success" expand="lg" className='possition'>
+    
+    <Navbar.Brand href="#home">EAT & WATCH TOGETHER</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
@@ -28,7 +27,6 @@ function Header() {
         </Nav>
       </Navbar.Collapse>
   </Navbar>
-  </Container>
   )
 }
 

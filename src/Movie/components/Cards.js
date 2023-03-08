@@ -1,14 +1,13 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import { Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
-function Carde({ item }) {
-    return (
-        <div >
-            <Row>
+
+function Cards() {
+  return (
+    <div>
+         <Row>
                 <Col>
-                    <Link style={{ textDecoration: 'none' }} to={`./details/${item.id}`}>
+                  <Container>
+                 <center>
+                   <Link className='btn btn-success m-3 ' style={{width:"5%"}}  to={`/details/${item.id}`}> BACK</Link>
                         <Card style={{ width: '18rem', marginTop: '2rem' }}>
                             <Card.Img variant="top" src={item.photograph} />
                             <Card.Body>
@@ -22,13 +21,13 @@ function Carde({ item }) {
                                 <Button variant="primary">KNOW MORE</Button>
                             </Card.Body>
                         </Card>
-                    </Link>
+                 </center>
+                  </Container>
                 </Col>
             </Row>
 
-        </div>
-    );
+    </div>
+  )
 }
 
-export default Carde
-
+export default Cards
