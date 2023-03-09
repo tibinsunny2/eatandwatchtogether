@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SideNavigation from './SideNavigation'
+import SideNavigation from './SideNavigation';
 
 function Activity() {
   return (

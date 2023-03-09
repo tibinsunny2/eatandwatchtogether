@@ -1,5 +1,5 @@
 import React from 'react'
-import SideNavigation from './SideNavigation'
+import SideNavigation from './SideNavigation';
 import { Table } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 function Clients() {

@@ -4,7 +4,7 @@ import Row from '../Row'
 import requests from '../requests'
 import { ListGroup, ListGroupItem } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import SideNavigation from './SideNavigation'
+import SideNavigation from './SideNavigation';
 function All() {
     return (
         <div className='row'>

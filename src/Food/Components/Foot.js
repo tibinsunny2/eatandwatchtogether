@@ -5,7 +5,7 @@ function Footer() {
     <div>
         
         <Row className='text-center py-1 bg-success'>
-          <Col><h5>copyright &copy; SAMPLE PRIVATE LIMITED COMPANY SINCE 1999</h5></Col>
+          <Col><h5>copyright &copy; SUNNY ENTERPRICES PRIVATE LIMITED COMPANY SINCE 1999</h5></Col>
         </Row>
         
     </div>
